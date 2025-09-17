@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bookstore products</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- header -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="top-left">Madina's Webpage</div>
+      <div class="top-center">
+  <div class="logo-wrapper">
+    <img src="Media/nyulogo.png" alt="NYU Logo" class="nav-logo" />
+    
+  </div>
+</div>
+
+      <nav class="top-right" aria-label="Primary">
+  <a class="nav-link" href="BookstoreProducts.html">Products</a>
+  <a class="nav-link" href="Tour.html">Bookstore Tour</a>
+  <a class="nav-link" href="NextRead.html">Reading</a>
+</nav>
+
+    </div>
+  </header>
+
+
+  <section class="container" style="margin: 36px auto 12px;">
+    <h1 class="page-title">What the Bookstore Has</h1>
+  </section>
+
+  <!-- gallery -->
+  <section class="container gallery" id="gallery">
+    <article class="card" id="card-textbooks">
+      <div class="card-media">
+        <img src="Media/textbooks.png" alt="Textbooks" class="card-img" />
+      </div>
+      <div class="card-caption">Textbooks</div>
+    </article>
+
+    <article class="card" id="card-merch">
+      <div class="card-media">
+        <img src="Media/merch.png" alt="Merch" class="card-img" />
+      </div>
+      <div class="card-caption">Merch</div>
+    </article>
+
+    <article class="card" id="card-stationery">
+      <div class="card-media">
+        <img src="Media/stationery.jpeg" alt="Stationery" class="card-img" />
+      </div>
+      <div class="card-caption">Stationery</div>
+    </article>
+  </section>
+
+  <!-- edge arrows -->
+  <section class="container gallery-controls">
+  <button class="edge-arrow" id="arrow-left"  aria-label="Previous order">←</button>
+  <button class="edge-arrow" id="arrow-right" aria-label="Next order">→</button>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
